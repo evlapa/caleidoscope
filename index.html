@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./settings.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- <div id="app"> -->
+      <div class="wrapper">
+        <main class="main">
+          <div class="container">
+            <div class="playArea original">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content reversed">
+                <svg>
+                </svg>
+              </div>
+            </div>
+            <div class="playArea">
+              <div class="sector-content">
+                <svg>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside class="aside">
+          <div class="settings-block">
+            <h1>Настройки</h1>
+            <div class="settings">
+              <div class="single-setting">
+                <h2>Количество</h2>
+                <input id="quantity" type="number" min="10" max="200" value="10">
+              </div>
+              <div class="single-setting">
+                <h2>Цвет</h2>
+                <label>
+                  <input type="radio" name="figure-color" value="random" checked><span>Случайный выбор</span>
+                  <input type="radio" name="figure-color" value="white"><span>Белый</span>
+                </label>
+              </div>
+              <div class="single-setting">
+                <h2>Размер</h2>
+                <label>
+                  <input type="radio" name="figure-size" value="60" checked><span>Крупный</span>
+                  <input type="radio" name="figure-size" value="40"><span>Средний</span>
+                  <input type="radio" name="figure-size" value="20"><span>Мелкий</span>
+                </label>
+              </div>
+              <div class="single-setting">
+              </div>
+              <div class="single-setting">
+                <h2>Границы</h2>
+                <label>
+                  <input type="radio" name="borders" value=false><span>Нет</span>
+                  <input type="radio" name="borders" value="thick"><span>Толстые</span>
+                  <input type="radio" name="borders" value="thin" checked><span>Тонкие</span>
+                  <input type="radio" name="borders" value="random"><span>Случайный выбор</span>
+                </label>
+                <h2>Цвет границ</h2>
+                <label>
+                  <input type="radio" name="border-color" value="black"><span>Черный</span>
+                  <input type="radio" name="border-color" value="random" checked><span>Случайный выбор</span>
+                </label>
+              </div>
+              <div class="single-setting">
+                <h2>Скорость обновления</h2>
+                <input id="frequency" type="range" min="3" max="10" step="1" value="3">
+              </div>
+            </div>
+            <button class="apply-btn">Применить</button>
+          </div>
+      
+      <div class="ads-block"></div>
+      </aside>
+      </div>
+    <!-- </div> -->
+    <script type="module" src="./settings-script.js"></script>
+  </body>
+</html>

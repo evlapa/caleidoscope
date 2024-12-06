@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80%;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+    width: 60%; 
+}
+
+.aside {
+    padding: 3px;
+    width: 30%;
+    background-color: rgba(30, 50, 60, 0.3);
+}
